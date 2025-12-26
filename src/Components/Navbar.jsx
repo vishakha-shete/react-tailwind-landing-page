@@ -6,7 +6,7 @@ const Navbar = () => {
     const menuItems = ["Designers", "Collabs", "Events", "9018", "Card"];
 
     return (
-        <nav className="px-4 md:px-10 py-3 bg-black text-white shadow-sm">
+        <nav className=" md:px-10 py-5 px-0 bg-black text-white shadow-sm">
 
             <div className="flex items-center justify-between">
                 <h1 className="text-xl font-bold">Brand</h1>
