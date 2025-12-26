@@ -6,10 +6,10 @@ const Navbar = () => {
     const menuItems = ["Designers", "Collabs", "Events", "9018", "Card"];
 
     return (
-        <nav className=" md:px-10 py-5 px-0 bg-black text-white shadow-sm">
+        <nav className="px-4 md:px-10 py-3 bg-black text-white shadow-sm">
 
             <div className="flex items-center justify-between">
-                <h1 className="text-xl font-bold">Brand</h1>
+                <h1 className="text-xl font-bold">DVSY</h1>
 
                 <ul className="hidden md:flex flex-1 justify-end gap-5 mr-6">
                     {menuItems.map((item) => (
@@ -32,7 +32,6 @@ const Navbar = () => {
                 </button>
             </div>
 
-            {/* Mobile Menu */}
             {open && (
                 <div className="md:hidden mt-4 flex flex-col gap-3">
                     {menuItems.map((item) => (
