@@ -21,15 +21,15 @@ const About = () => {
                 </div>
 
                 {/* RIGHT – Content */}
-                <div className="w-full md:w-1/2 text-white space-y-6">
+                <div className="w-full md:w-1/2 text-gray-400 space-y-6">
 
                     {/* Card 1 */}
-                    <div className="bg-gray-900 rounded-2xl p-6 relative">
+                    <div className="bg-neutral-900 rounded-2xl p-6 relative">
                         <h3 className="mt-1 text-lg font-semibold">
                             INDEPENDENT DESIGNERS
                         </h3>
 
-                        <p className="mt-6 w-[470px] max-w-full text-gray-300">
+                        <p className="mt-6 w-[470px] max-w-full text-gray-500">
                             Our platform celebrates the ingenuity of independent designers,
                             offering a diverse range of fashion-forward garments that reflect
                             creativity and innovation. Explore curated collections showcasing
@@ -48,12 +48,12 @@ const About = () => {
                     </div>
 
                     {/* Card 2 */}
-                    <div className="bg-gray-900 rounded-2xl p-6 relative">
+                    <div className="bg-neutral-900 rounded-2xl p-7 relative">
                         <h3 className="mt-1 text-lg font-semibold">
                             EXCLUSIVE & UNIQUITY
                         </h3>
 
-                        <p className="mt-6 w-[470px] max-w-full text-gray-300">
+                        <p className="mt-6 w-[470px] max-w-full text-gray-500">
                             Indulge in curated collections showcasing exclusive, one-of-a-kind
                             pieces, each with its own story and charm. Experience unique fashion
                             pieces that radiate sophistication and individuality.

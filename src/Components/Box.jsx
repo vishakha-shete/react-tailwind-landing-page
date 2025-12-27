@@ -25,7 +25,7 @@ const Box = () => {
             {data.map((item, index) => (
                 <div
                     key={index}
-                    className="h-60 w-76 bg-gray-900 p-6 flex flex-col justify-between rounded-xl"
+                    className="h-60 w-76 bg-neutral-900 p-6 flex flex-col justify-between rounded-xl"
                 >
                     <div>
                         <h3 className="text-gray-400 font-semibold text-lg">

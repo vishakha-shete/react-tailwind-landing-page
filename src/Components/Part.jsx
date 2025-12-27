@@ -7,14 +7,14 @@ const Part = () => {
             <div className="py-10 flex flex-col md:flex-row items-center gap-5">
 
                 {/* Text Section (50%) */}
-                <div className=" pt-10 pb-12 w-full md:w-1/2 text-white rounded-xl bg-gray-900 px-7 py-6">
+                <div className=" pt-10 pb-12 w-full md:w-1/2 text-white rounded-xl bg-neutral-900 px-7 py-6">
                     <span className="text-sm text-gray-500 font-bold">ABOUT</span>
 
                     <h1 className="mt-5 text-4xl md:text-5xl font-semibold">
                         WHERE FASHION MEETS FREEDOM
                     </h1>
 
-                    <div className="mt-9 grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-300">
+                    <div className="mt-9 grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-400">
                         <p>
                             We believe that fashion should be an expression of individuality.
                             We encourage creativity and originality in every item we offer,

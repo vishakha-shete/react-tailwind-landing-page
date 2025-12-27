@@ -15,7 +15,7 @@ const Navbar = () => {
                     {menuItems.map((item) => (
                         <li
                             key={item}
-                            className="px-3 py-1 bg-gray-700 text-white rounded-lg cursor-pointer hover:bg-pink-700 transition"
+                            className="px-3 py-1 bg-neutral-900 text-white rounded-lg cursor-pointer hover:bg-pink-700 transition"
                         >
                             {item}
                         </li>
