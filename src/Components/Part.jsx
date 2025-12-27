@@ -3,7 +3,7 @@ import PartImg from "../assets/part.png";
 
 const Part = () => {
     return (
-        <section className="relative mx-4 md:mx-10">
+        <section className="relative mx-7 md:mx-10">
             <div className="py-10 flex flex-col md:flex-row items-center gap-5">
 
                 {/* Text Section (50%) */}

@@ -7,7 +7,7 @@ const Section = () => {
         flex justify-center gap-60 text-white text-2xl
         max-lg:gap-24
         max-md:flex-wrap max-md:gap-12
-        max-sm:flex-col max-sm:items-center max-sm:gap-8
+        max-sm:flex-col max-sm:items-center max-sm:gap-7
       "
     >
       <div className="text-center">

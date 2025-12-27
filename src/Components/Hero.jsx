@@ -2,7 +2,7 @@ import heroImg from "../assets/hero.png";
 
 const Hero = () => {
   return (
-    <section className="relative mx-10">
+    <section className="relative mx-7">
 
       <img
         src={heroImg}

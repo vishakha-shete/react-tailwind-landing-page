@@ -21,7 +21,7 @@ const data = [
 
 const Box = () => {
     return (
-        <div className="flex flex-wrap justify-center gap-4 px-6 py-10">
+        <div className="flex flex-wrap justify-center gap-4 px-7 py-10">
             {data.map((item, index) => (
                 <div
                     key={index}
